@@ -1,6 +1,8 @@
-require_relative "boot"
+# frozen_string_literal: true
 
-require "rails/all"
+require_relative 'boot'
+
+require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -27,8 +29,8 @@ module HelloworldBackend
     # confugures CORS, to allow requests from our React app Frontend executed in 3001 port
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'http://localhost:3001' 
-        resource '/api/*', headers: :any, methods: [:get, :post, :put, :patch, :delete, :options, :head]
+        origins 'http://localhost:3001'
+        resource '/api/*', headers: :any, methods: %i[get post put patch delete options head]
       end
     end
   end

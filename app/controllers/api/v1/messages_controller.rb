@@ -1,12 +1,6 @@
-# frozen_string_literal: true
-
-module Api
-  module V1
-    class MessagesController < ApplicationController
-      def index
-        messages = Message.order('RANDOM()').first
-        render json: messages
-      end
-    end
+class Api::V1::MessagesController < ApplicationController
+  def index
+    messages = Message.order('RANDOM()').first
+    render json: messages
   end
 end
