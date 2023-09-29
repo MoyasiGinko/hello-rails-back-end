@@ -20,7 +20,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📚🎵🎮 Hello react from Api <a name="about-project"></a>
+# 📚 Hello Rails <a name="about-project"></a>
 
 **Hello-Rails-Back-End** in this repo, i am building the rails api.
 
