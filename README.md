@@ -41,6 +41,9 @@
   </ul>
 </details>
 
+### Link to React Front End
+You can find the React app repository [here](https://github.com/MoyasiGinko/hello-react-front-end/pull/1)
+
 ### Key Features <a name="key-features"></a>
 
 - **Initialize javascript webpack**
@@ -89,8 +92,8 @@ To run the project, navigate to the project directory and execute the following 
 ```sh
   bundle install
   bin/rails db:create db:migrate rails server
-  yarn run build
-   ./bin/dev
+
+  open http://localhost:3000/api/v1/messages
 ```
 
 ### Run tests
@@ -117,7 +120,7 @@ rspec spec/
 
 ## 🔭 Future Features <a name="features"></a>
 
-- **Integral Testing** The application will be tested with RSpec and Jest.
+- **Integral Testing** The application will be tested with RSpec.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
